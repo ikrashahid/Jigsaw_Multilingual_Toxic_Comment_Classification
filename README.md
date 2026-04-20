@@ -1,12 +1,14 @@
 # Responsible & Explainable AI - Assignment 2
 
-This repository contains a full starter implementation for the five required assignment parts:
+This repository contains a full starter implementation for the five required assignment parts.
+For the actual executed run, the work is consolidated in `actual_run.ipynb` (single notebook covering multiple phases).
 
 - `part1.ipynb` - baseline DistilBERT training + threshold analysis
 - `part2.ipynb` - subgroup fairness audit
 - `part3.ipynb` - adversarial evasion + poisoning
 - `part4.ipynb` - mitigation setup and comparison scaffold
 - `part5.ipynb` - production-style guardrail pipeline demo
+- `actual_run.ipynb` - consolidated executed notebook (Phase 1 + Phase 2, with outputs)
 - `pipeline.py` - `ModerationPipeline` class with 3 layers
 - `assignment_workflow.py` - shared reusable functions
 - `requirements.txt` - pinned dependencies
@@ -34,13 +36,18 @@ Place Kaggle files in repository root:
 
 The dataset itself should not be committed.
 
+## Execution Format
+
+- Primary executed notebook: `actual_run.ipynb`
+- This notebook contains the code run for the assignment phases in one place.
+- The `part1.ipynb` to `part5.ipynb` files are kept for assignment structure/reference.
+
 ## Run Order
 
-1. Run `part1.ipynb` end-to-end and keep outputs.
-2. Run `part2.ipynb` using the saved baseline model.
-3. Run `part3.ipynb` to evaluate attacks.
-4. Complete + run `part4.ipynb` mitigation experiments.
-5. Run `part5.ipynb` pipeline demonstration on 1000 samples.
+1. Open and run `actual_run.ipynb` end-to-end on Colab GPU.
+2. Verify all required outputs (metrics, plots, and tables) are visible.
+3. Save the executed notebook and push to GitHub.
+4. Keep `part1.ipynb` to `part5.ipynb` in the repository for mapping to assignment parts.
 
 ## Important Notes
 
