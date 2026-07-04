@@ -1,4 +1,4 @@
-# Responsible & Explainable AI - Assignment 2
+# Responsible & Explainable AI 
 
 This repository contains a full starter implementation for the five required assignment parts.
 For the actual executed run, the work is consolidated in `actual_run.ipynb` (single notebook covering multiple phases).
